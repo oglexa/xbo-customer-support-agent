@@ -7,6 +7,13 @@
     ]
   },
   {
+    "query": "Can I withdraw large amounts without advanced KYC?",
+    "relevant_docs": [
+      "kyc_requirements.md",
+      "withdrawal_limits.md"
+    ]
+  },
+  {
     "query": "What are the rules and penalties for losing or omitting the memo tag when depositing Ripple?",
     "relevant_docs": [
       "crypto_deposits.md"

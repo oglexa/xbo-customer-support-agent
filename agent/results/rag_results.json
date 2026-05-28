@@ -1,0 +1,66 @@
+{
+  "suite": "rag",
+  "pass_rate": 0.0,
+  "results": [
+    {
+      "query": "Can I withdraw large amounts without advanced KYC?",
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
+      "passed": false
+    },
+    {
+      "query": "What are the rules and penalties for losing or omitting the memo tag when depositing Ripple?",
+      "precision@k": 0.3333333333333333,
+      "recall@k": 1.0,
+      "passed": false
+    },
+    {
+      "query": "How does an account freeze due to suspicious activity affect my running trading orders and my monthly VIP fee tier calculation?",
+      "precision@k": 0.6666666666666666,
+      "recall@k": 1.0,
+      "passed": false
+    },
+    {
+      "query": "What is the total fee and estimated delivery time for a Euro transfer using SEPA rails?",
+      "precision@k": 0.6666666666666666,
+      "recall@k": 1.0,
+      "passed": false
+    },
+    {
+      "query": "I am a prominent politician, can my account be verified automatically to unlock Tier 2 trading limits?",
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
+      "passed": false
+    },
+    {
+      "query": "How long will my funds be locked out if I reset my password, and what error code will I see on the screen?",
+      "precision@k": 0.6666666666666666,
+      "recall@k": 1.0,
+      "passed": false
+    },
+    {
+      "query": "Can my API automated script get higher rate limits or special maker fee discounts if I am an institutional trader?",
+      "precision@k": 0.6666666666666666,
+      "recall@k": 1.0,
+      "passed": false
+    },
+    {
+      "query": "What are the specific video requirements and mandatory text I need to record to appeal a compliance velocity block?",
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
+      "passed": false
+    },
+    {
+      "query": "Does an interim security lockdown pause my daily staking interest accumulation, and can I recover the lost rewards later?",
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
+      "passed": false
+    },
+    {
+      "query": "Why did my SWIFT wire withdrawal arrive with an extra deduction even though the platform's stated fee is capped at 250 USD?",
+      "precision@k": 0.6666666666666666,
+      "recall@k": 1.0,
+      "passed": false
+    }
+  ]
+}

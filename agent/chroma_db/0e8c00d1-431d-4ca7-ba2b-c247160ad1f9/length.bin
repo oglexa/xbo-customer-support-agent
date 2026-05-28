@@ -1,0 +1,6 @@
+rparties:** Direct interaction with known high-risk blockchain entities, mixing services (e.g., Tornado Cash), or addresses associated with darknet marketplaces or reported hacks.
+
+### Automated Mitigation Actions
+
+When the automated monitoring system flags an account, the platform may execute immediate precautionary protocols without prior warning to the user:
+1. **Interim Withdrawal Lockdown:** 

@@ -3,9 +3,12 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 
 
+SCRIPT_DIR = Path(__file__).parent
+
+
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-client = chromadb.PersistentClient(path="./chroma_db")
+client = chromadb.PersistentClient(path=str(SCRIPT_DIR / "chroma_db"))
 collection = client.get_or_create_collection("xbo_docs")
 
 
@@ -23,7 +26,7 @@ def chunk_text(text, chunk_size=400, overlap=50):
 
 
 def build_index():
-    kb_path = Path("agent/kb")
+    kb_path = SCRIPT_DIR / "kb"
 
     counter = 0
 
