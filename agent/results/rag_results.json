@@ -9,6 +9,12 @@
       "passed": false
     },
     {
+      "query": "Can I withdraw large amounts without advanced KYC?",
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
+      "passed": false
+    },
+    {
       "query": "What are the rules and penalties for losing or omitting the memo tag when depositing Ripple?",
       "precision@k": 0.3333333333333333,
       "recall@k": 1.0,
