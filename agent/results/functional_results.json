@@ -1,0 +1,61 @@
+{
+  "suite": "functional",
+  "pass_rate": 0.0,
+  "results": [
+    {
+      "question": "What is the withdrawal fee for BTC?",
+      "similarity": 0.023389257490634918,
+      "passed": false
+    },
+    {
+      "question": "What are the KYC withdrawal limits?",
+      "similarity": 0.12892164289951324,
+      "passed": false
+    },
+    {
+      "question": "What happens if I forget to include the Destination Tag when depositing Ripple (XRP)?",
+      "similarity": 0.4219375252723694,
+      "passed": false
+    },
+    {
+      "question": "Can I complete my Tier 2 identity verification by uploading a photo of my student ID or a corporate badge?",
+      "similarity": 0.4095902442932129,
+      "passed": false
+    },
+    {
+      "question": "What is the effective Maker fee for a VIP 2 tier user who has enabled the 'Pay Fees with APX' toggle?",
+      "similarity": 0.6496673822402954,
+      "passed": false
+    },
+    {
+      "question": "I updated my 2FA settings and now my account is locked with error code SEC-LOCK-48. What should I do to unlock it?",
+      "similarity": 0.247566819190979,
+      "passed": false
+    },
+    {
+      "question": "What happens to my active spot and futures trading orders if my account gets flagged for a compliance risk or velocity anomaly?",
+      "similarity": 0.42971163988113403,
+      "passed": false
+    },
+    {
+      "question": "If I am a Tier 2 user and withdraw $30,000 USD worth of crypto at 14:00 UTC, when can I withdraw another $30,000 USD worth of assets?",
+      "similarity": 0.04366663098335266,
+      "passed": false
+    },
+    {
+      "question": "Can I claim staking rewards for the period during which my account was placed under an interim lockdown due to suspicious activity?",
+      "similarity": 0.6688987016677856,
+      "passed": false
+    },
+    {
+      "question": "Why did I receive $30 less than expected on my international SWIFT fiat withdrawal when the exchange caps its SWIFT fee at $250?",
+      "similarity": 0.05843134969472885,
+      "passed": false
+    },
+    {
+      "question": "What is the REST API rate limit for private trading endpoints, and what happens if my bot triggers an HTTP 429 error multiple times?",
+      "similarity": 0.06269930303096771,
+      "passed": false
+    }
+  ]
+}

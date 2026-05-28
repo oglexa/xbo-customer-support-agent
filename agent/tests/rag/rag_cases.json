@@ -1,0 +1,71 @@
+[
+  {
+    "query": "Can I withdraw large amounts without advanced KYC?",
+    "relevant_docs": [
+      "kyc_requirements.md",
+      "withdrawal_limits.md"
+    ]
+  },
+  {
+    "query": "What are the rules and penalties for losing or omitting the memo tag when depositing Ripple?",
+    "relevant_docs": [
+      "crypto_deposits.md"
+    ]
+  },
+  {
+    "query": "How does an account freeze due to suspicious activity affect my running trading orders and my monthly VIP fee tier calculation?",
+    "relevant_docs": [
+      "account_freeze_policy.md",
+      "trading_fees.md"
+    ]
+  },
+  {
+    "query": "What is the total fee and estimated delivery time for a Euro transfer using SEPA rails?",
+    "relevant_docs": [
+      "withdrawal_fees.md",
+      "fiat_transfers.md"
+    ]
+  },
+  {
+    "query": "I am a prominent politician, can my account be verified automatically to unlock Tier 2 trading limits?",
+    "relevant_docs": [
+      "account_verification.md",
+      "kyc_requirements.md"
+    ]
+  },
+  {
+    "query": "How long will my funds be locked out if I reset my password, and what error code will I see on the screen?",
+    "relevant_docs": [
+      "withdrawal_limits.md",
+      "frozen_accounts.md"
+    ]
+  },
+  {
+    "query": "Can my API automated script get higher rate limits or special maker fee discounts if I am an institutional trader?",
+    "relevant_docs": [
+      "api_rate_limits.md",
+      "trading_fees.md"
+    ]
+  },
+  {
+    "query": "What are the specific video requirements and mandatory text I need to record to appeal a compliance velocity block?",
+    "relevant_docs": [
+      "suspicious_activity.md",
+      "frozen_accounts.md"
+    ]
+  },
+  {
+    "query": "Does an interim security lockdown pause my daily staking interest accumulation, and can I recover the lost rewards later?",
+    "relevant_docs": [
+      "account_freeze_policy.md",
+      "staking_rules.md"
+    ]
+  },
+  {
+    "query": "Why did my SWIFT wire withdrawal arrive with an extra deduction even though the platform's stated fee is capped at 250 USD?",
+    "relevant_docs": [
+      "withdrawal_fees.md",
+      "fiat_transfers.md"
+    ]
+  }
+]

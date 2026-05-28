@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the withdrawal fee for BTC?",
+    "expected_answer": "BTC withdrawals incur a fixed fee",
+    "category": "fees"
+  },
+  {
+    "question": "What are the KYC withdrawal limits?",
+    "expected_answer": "Basic KYC users have lower withdrawal limits",
+    "category": "kyc"
+  },
+  {
+    "question": "What happens if I forget to include the Destination Tag when depositing Ripple (XRP)?",
+    "expected_answer": "Omitting or entering an incorrect Destination Tag will result in funds being routed to the main pool without account attribution, requiring a manual recovery process that takes up to 30 business days and incurs a 10% recovery fee.",
+    "category": "deposits"
+  },
+  {
+    "question": "Can I complete my Tier 2 identity verification by uploading a photo of my student ID or a corporate badge?",
+    "expected_answer": "No, ApexCrypto strictly prohibits the use of student IDs, corporate badges, military IDs, medical cards, or temporary residence visas as primary Proof of Identity.",
+    "category": "kyc"
+  },
+  {
+    "question": "What is the effective Maker fee for a VIP 2 tier user who has enabled the 'Pay Fees with APX' toggle?",
+    "expected_answer": "The baseline Maker fee for VIP 2 is 0.060%, and with the 25% flat APX discount enabled, the effective fee drops to 0.045%.",
+    "category": "fees"
+  },
+  {
+    "question": "I updated my 2FA settings and now my account is locked with error code SEC-LOCK-48. What should I do to unlock it?",
+    "expected_answer": "You should do nothing and do not open a support ticket. This is a temporary 48-hour automated lock triggered by credential modification that is non-negotiable and resolves automatically.",
+    "category": "security"
+  },
+  {
+    "question": "What happens to my active spot and futures trading orders if my account gets flagged for a compliance risk or velocity anomaly?",
+    "expected_answer": "If an account enters a full freeze or lockdown due to security or compliance triggers, all active and pending limit orders on the book are automatically purged and canceled.",
+    "category": "trading"
+  },
+  {
+    "question": "If I am a Tier 2 user and withdraw $30,000 USD worth of crypto at 14:00 UTC, when can I withdraw another $30,000 USD worth of assets?",
+    "expected_answer": "All limits operate on a strict rolling 24-hour basis rather than resetting at midnight UTC. Since the Tier 2 limit is $50,000 per rolling window, after withdrawing $30,000 you can only withdraw an additional $20,000 until 14:00 UTC the following day.",
+    "category": "limits"
+  },
+  {
+    "question": "Can I claim staking rewards for the period during which my account was placed under an interim lockdown due to suspicious activity?",
+    "expected_answer": "No, if an account is frozen or enters an interim lockdown, staking reward accrual is instantly paused, and rewards for the duration of the lockdown are permanently forfeited and cannot be claimed retroactively.",
+    "category": "staking"
+  },
+  {
+    "question": "Why did I receive $30 less than expected on my international SWIFT fiat withdrawal when the exchange caps its SWIFT fee at $250?",
+    "expected_answer": "ApexCrypto enforces a maximum SWIFT fee cap of $250.00, but external third-party correspondent or intermediary banks involved in the routing may deduct independent fees (ranging from $15.00 to $50.00) directly from the wire amount.",
+    "category": "fiat"
+  },
+  {
+    "question": "What is the REST API rate limit for private trading endpoints, and what happens if my bot triggers an HTTP 429 error multiple times?",
+    "expected_answer": "The rate limit for private trading endpoints is 120 requests per rolling 1-minute window. Triggering an HTTP 429 error more than 5 times within an hour can lead to an automated system lockdown, session termination, and a temporary 24-hour withdrawal freeze.",
+    "category": "api"
+  }
+]
