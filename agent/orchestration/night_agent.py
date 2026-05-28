@@ -13,7 +13,7 @@ Critical behavior — skip and continue:
 
 Output:
   - Per-suite JSON results in agent/results/
-  - A structured morning report (Markdown) saved to agent/results/morning_report.md
+  - A structured night report (Markdown) saved to agent/results/night_report.md
 
 Usage:
     python agent/orchestration/night_agent.py
@@ -31,6 +31,12 @@ PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 AGENT_DIR = os.path.join(PROJECT_ROOT, "agent")
 RESULTS_DIR = os.path.join(AGENT_DIR, "results")
 PYTHON = sys.executable
+
+# Reconfigure stdout/stderr to use UTF-8 encoding on Windows to prevent UnicodeEncodeError with emojis
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
 
 SUITE_TIMEOUT = 300  # 5 minutes per suite
 
@@ -156,11 +162,11 @@ def run_suite(suite):
 
 
 def generate_report(suite_outcomes, total_elapsed):
-    """Generate a structured Markdown morning report."""
+    """Generate a structured Markdown night report."""
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     lines = []
-    lines.append("# 🌙 Night Agent — Morning Report")
+    lines.append("# 🌙 Night Agent — Night Report")
     lines.append("")
     lines.append(f"**Generated:** {now}  ")
     lines.append(f"**Total runtime:** {total_elapsed:.1f}s  ")
@@ -295,9 +301,9 @@ def main():
 
     total_elapsed = time.time() - total_start
 
-    # --- Generate morning report ---
+    # --- Generate night report ---
     report_md = generate_report(suite_outcomes, total_elapsed)
-    report_path = os.path.join(RESULTS_DIR, "morning_report.md")
+    report_path = os.path.join(RESULTS_DIR, "night_report.md")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report_md)
 

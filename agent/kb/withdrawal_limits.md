@@ -1,6 +1,6 @@
-# ApexCrypto Help Center: Withdrawal Limits Framework
+# XBO Help Center: Withdrawal Limits Framework
 
-ApexCrypto establishes daily and monthly withdrawal ceilings to safeguard user funds and maintain regulatory alignment. These thresholds are strictly tied to the user's verified identity tier and the type of asset being moved (digital tokens or fiat currency).
+XBO establishes daily and monthly withdrawal ceilings to safeguard user funds and maintain regulatory alignment. These thresholds are strictly tied to the user's verified identity tier and the type of asset being moved (digital tokens or fiat currency).
 
 ### Standard Limits by Verification Tier
 

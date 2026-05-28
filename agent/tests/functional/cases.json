@@ -16,7 +16,7 @@
   },
   {
     "question": "Can I complete my Tier 2 identity verification by uploading a photo of my student ID or a corporate badge?",
-    "expected_answer": "No, ApexCrypto strictly prohibits the use of student IDs, corporate badges, military IDs, medical cards, or temporary residence visas as primary Proof of Identity.",
+    "expected_answer": "No, XBO strictly prohibits the use of student IDs, corporate badges, military IDs, medical cards, or temporary residence visas as primary Proof of Identity.",
     "category": "kyc"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "question": "Why did I receive $30 less than expected on my international SWIFT fiat withdrawal when the exchange caps its SWIFT fee at $250?",
-    "expected_answer": "ApexCrypto enforces a maximum SWIFT fee cap of $250.00, but external third-party correspondent or intermediary banks involved in the routing may deduct independent fees (ranging from $15.00 to $50.00) directly from the wire amount.",
+    "expected_answer": "XBO enforces a maximum SWIFT fee cap of $250.00, but external third-party correspondent or intermediary banks involved in the routing may deduct independent fees (ranging from $15.00 to $50.00) directly from the wire amount.",
     "category": "fiat"
   },
   {

@@ -1,6 +1,6 @@
-# ApexCrypto Help Center: Cryptocurrency Deposits Guide
+# XBO Help Center: Cryptocurrency Deposits Guide
 
-Depositing digital assets into your ApexCrypto account is automated and generally straightforward. However, due to the irreversible nature of blockchain networks, users must strictly adhere to the protocols outlined below to avoid permanent loss of funds.
+Depositing digital assets into your XBO account is automated and generally straightforward. However, due to the irreversible nature of blockchain networks, users must strictly adhere to the protocols outlined below to avoid permanent loss of funds.
 
 ### Standard Deposit Process and Confirmations
 To credit a crypto deposit, the transaction must achieve a minimum number of block confirmations on the blockchain network. These requirements fluctuate based on network security baselines:
@@ -14,7 +14,7 @@ To credit a crypto deposit, the transaction must achieve a minimum number of blo
 
 1. **Address Matching:** You must only send assets to the specific address generated for that exact token. For instance, sending Bitcoin Cash (BCH) to a Bitcoin (BTC) deposit address will result in the total and permanent loss of those tokens.
 2. **Tag/Memo Requirements:** Certain networks, such as Ripple (XRP) and Cosmos (ATOM), utilize a shared wallet architecture. When depositing these assets, you **must** include both the unique deposit address and the correct **Destination Tag** or **Memo**. Omitting or entering an incorrect Tag/Memo will result in funds being routed to the main pool without account attribution, requiring a manual recovery process that takes up to 30 business days and incurs a 10% recovery fee.
-3. **Smart Contract Deposits:** ApexCrypto does not support incoming ETH or ERC-20 deposits executed via smart contracts (internal transactions). Deposits must be sent as standard external transfers (EOA). Smart contract deposits will not be detected automatically and require manual compliance intervention.
+3. **Smart Contract Deposits:** XBO does not support incoming ETH or ERC-20 deposits executed via smart contracts (internal transactions). Deposits must be sent as standard external transfers (EOA). Smart contract deposits will not be detected automatically and require manual compliance intervention.
 
 ### Minimum Deposit Thresholds
 There is no maximum limit on cryptocurrency deposits for any verification tier (including Tier 1). However, minimal operational thresholds apply:

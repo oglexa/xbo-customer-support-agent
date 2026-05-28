@@ -1,6 +1,6 @@
-# ApexCrypto Security & Compliance: Suspicious Activity Monitoring
+# XBO Security & Compliance: Suspicious Activity Monitoring
 
-ApexCrypto utilizes advanced, real-time automated behavioral monitoring systems combined with dedicated fraud investigation units to detect, prevent, and mitigate unauthorized account access, financial crime, and market manipulation.
+XBO utilizes advanced, real-time automated behavioral monitoring systems combined with dedicated fraud investigation units to detect, prevent, and mitigate unauthorized account access, financial crime, and market manipulation.
 
 ### Indicators of Suspicious Activity
 
@@ -18,4 +18,4 @@ When the automated monitoring system flags an account, the platform may execute 
 3. **API Deactivation:** All linked API keys are deactivated or permanently deleted to halt automated trading scripts.
 
 ### Resolution Protocol
-If your account is flagged for suspicious activity, you will receive an encrypted email notification from security@apexcrypto.com. To lift restrictions, users are typically required to submit a "Video Verification Statement" holding their registered government ID and reciting a specific phrase provided by the compliance officer.
+If your account is flagged for suspicious activity, you will receive an encrypted email notification from security@XBO.com. To lift restrictions, users are typically required to submit a "Video Verification Statement" holding their registered government ID and reciting a specific phrase provided by the compliance officer.

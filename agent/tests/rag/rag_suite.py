@@ -40,11 +40,13 @@ for case in cases:
 
     relevant_docs = case["relevant_docs"]
 
+    unique_retrieved = set(retrieved_docs)
+
     relevant_retrieved = len(
-        set(retrieved_docs) & set(relevant_docs)
+        unique_retrieved & set(relevant_docs)
     )
 
-    precision = relevant_retrieved / TOP_K
+    precision = relevant_retrieved / len(unique_retrieved) if unique_retrieved else 0
 
     recall = relevant_retrieved / len(relevant_docs)
 

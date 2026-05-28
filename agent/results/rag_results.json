@@ -22,8 +22,8 @@
     },
     {
       "query": "How does an account freeze due to suspicious activity affect my running trading orders and my monthly VIP fee tier calculation?",
-      "precision@k": 0.6666666666666666,
-      "recall@k": 1.0,
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
       "passed": false
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "query": "How long will my funds be locked out if I reset my password, and what error code will I see on the screen?",
-      "precision@k": 0.6666666666666666,
-      "recall@k": 1.0,
+      "precision@k": 0.3333333333333333,
+      "recall@k": 0.5,
       "passed": false
     },
     {
@@ -58,8 +58,8 @@
     },
     {
       "query": "Does an interim security lockdown pause my daily staking interest accumulation, and can I recover the lost rewards later?",
-      "precision@k": 0.3333333333333333,
-      "recall@k": 0.5,
+      "precision@k": 0.6666666666666666,
+      "recall@k": 1.0,
       "passed": false
     },
     {

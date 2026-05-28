@@ -1,6 +1,6 @@
-# ApexCrypto Developer Portal: API Rate Limits and Usage Policy
+# XBO Developer Portal: API Rate Limits and Usage Policy
 
-To maintain the high availability, stability, and responsiveness of the ApexCrypto trading engine, strict rate limits are enforced across all public and private API endpoints. These limits prevent server abuse, mitigate DDoS vectors, and ensure a fair environment for both algorithmic and manual traders.
+To maintain the high availability, stability, and responsiveness of the XBO trading engine, strict rate limits are enforced across all public and private API endpoints. These limits prevent server abuse, mitigate DDoS vectors, and ensure a fair environment for both algorithmic and manual traders.
 
 ### Authentication Requirements
 * **Public Endpoints (Market Data):** Can be accessed without authentication.
@@ -15,10 +15,10 @@ Rate limits are calculated on a rolling-window basis per IP address for public e
 * **WebSocket Connections:** A single IP address may open a maximum of 5 concurrent WebSocket connections. Each connection can subscribe to a maximum of 25 channels simultaneously.
 
 ### Rate Limit Violations and Penalties
-If a user script or system exceeds the allocated limits, the ApexCrypto gateway will reject subsequent requests and return an **HTTP 429 Too Many Requests** error.
+If a user script or system exceeds the allocated limits, the XBO gateway will reject subsequent requests and return an **HTTP 429 Too Many Requests** error.
 
 1. **First Warning:** If an IP triggers an HTTP 429 error more than 5 times within an hour, the IP is automatically banned from all public endpoints for 10 minutes.
 2. **System Lockdown:** Persistent, high-velocity violations or deliberate attempts to bypass rate limits using proxy rotation will result in an automated platform response. The system will flag the account under the "Velocity Anomalies" protocol (see *Suspicious Activity Monitoring*), resulting in an immediate **Session Termination** and a temporary **Interim Withdrawal Lockdown** for 24 hours while engineering teams assess the script's intent.
 
 ### Requesting Limit Increases
-Institutional traders or designated market makers operating under Tier 3 (Pro Verification) statuses can request customized, higher-throughput API bandwidth. Applications containing technical architecture descriptions should be sent to api-support@apexcrypto.com.
+Institutional traders or designated market makers operating under Tier 3 (Pro Verification) statuses can request customized, higher-throughput API bandwidth. Applications containing technical architecture descriptions should be sent to api-support@XBO.com.

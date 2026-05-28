@@ -9,13 +9,30 @@ UNCERTAINTY_MARKERS = [
     "I don't know",
     "not available",
     "cannot determine",
-    "uncertain"
+    "uncertain",
+    "I don't have information",
+    "I don't have that information",
+    "I don't have enough information",
+    "not available in our documentation",
+    "not contained in",
+    "does not contain",
+    "not included in the context",
+    "not covered in",
+    "information is not available",
+    "not in the provided context",
 ]
 
 REFUSAL_MARKERS = [
     "cannot provide",
     "outside my scope",
-    "cannot assist"
+    "cannot assist",
+    "I can't help",
+    "I can't answer",
+    "I cannot assist",
+    "I'm not able to",
+    "I am not able to",
+    "can't help with that",
+    "cannot help with that",
 ]
 
 

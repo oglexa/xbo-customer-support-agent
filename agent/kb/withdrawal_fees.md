@@ -1,6 +1,6 @@
-# ApexCrypto Help Center: Asset Withdrawal Fees Schedule
+# XBO Help Center: Asset Withdrawal Fees Schedule
 
-To maintain the operational integrity of the network bridges and cover public ledger mining costs, ApexCrypto charges standard fees on all outgoing asset transfers. Fees are dynamically or statically structured depending on the underlying blockchain asset and network congestion.
+To maintain the operational integrity of the network bridges and cover public ledger mining costs, XBO charges standard fees on all outgoing asset transfers. Fees are dynamically or statically structured depending on the underlying blockchain asset and network congestion.
 
 ### Cryptocurrency Withdrawal Fees
 
@@ -27,4 +27,4 @@ Fiat processing involves external banking networks, processing intermediaries, a
 * **International SWIFT Wire:** 0.1% of the total transfer value, with a minimum fee of $35.00 and a maximum fee cap of $250.00.
 
 ### Internal Transfers (Off-Chain)
-Transfers between two distinct ApexCrypto accounts are executed off-chain and are entirely free of network fees. To leverage this, users must utilize the "Internal Pay" feature instead of routing the withdrawal through a public blockchain address.
+Transfers between two distinct XBO accounts are executed off-chain and are entirely free of network fees. To leverage this, users must utilize the "Internal Pay" feature instead of routing the withdrawal through a public blockchain address.

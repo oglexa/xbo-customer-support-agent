@@ -1,6 +1,6 @@
-# ApexCrypto Compliance & Security: Technical KYC Requirements
+# XBO Compliance & Security: Technical KYC Requirements
 
-This document establishes the precise technical standards, acceptable documentation formats, and global compliance criteria required to successfully pass Know Your Customer (KYC) verification on the ApexCrypto platform. 
+This document establishes the precise technical standards, acceptable documentation formats, and global compliance criteria required to successfully pass Know Your Customer (KYC) verification on the XBO platform. 
 
 ### Acceptable Proof of Identity (PoI) Documents
 
@@ -10,7 +10,7 @@ To satisfy Tier 2 (Advanced) requirements, users must upload a valid, unexpired 
 * **National Identity Cards:** Accepted for citizens of the European Economic Area (EEA), Switzerland, the United Kingdom, Singapore, and Australia. Digital or paper slips are not accepted.
 * **Driver’s Licenses:** Accepted for identity verification *only* for residents of the United States, Canada, and the United Kingdom. 
 
-> **Strict Regulatory Prohibition:** ApexCrypto does not accept student IDs, corporate badges, military IDs, medical cards, or temporary residence visas as primary Proof of Identity.
+> **Strict Regulatory Prohibition:** XBO does not accept student IDs, corporate badges, military IDs, medical cards, or temporary residence visas as primary Proof of Identity.
 
 ### Technical Image and Upload Standards
 
@@ -26,6 +26,6 @@ During the Tier 2 pipeline, users must execute a real-time biometric liveness sc
 
 ### Politically Exposed Persons (PEP) and Sanctions Policy
 
-ApexCrypto operates in strict compliance with international sanctions regimes and FATF guidelines. 
+XBO operates in strict compliance with international sanctions regimes and FATF guidelines. 
 * **Sanctioned Jurisdictions:** Residents or citizens of countries currently undergoing comprehensive international embargoes (including but not limited to North Korea, Iran, Syria, and Cuba) are completely barred from passing KYC verification.
 * **PEP Declaration:** During registration, users are legally obligated to declare if they hold, or have held within the past 12 months, a prominent public function (e.g., senior government official, politician, judicial officer). PEP accounts cannot be verified via standard automated processing; they are routed directly to Tier 3 manual compliance desk review and are subject to Enhanced Due Diligence (EDD), regardless of transaction volumes.

@@ -1,6 +1,6 @@
-# ApexCrypto Help Center: Account Verification (KYC) Policy
+# XBO Help Center: Account Verification (KYC) Policy
 
-To ensure compliance with global anti-money laundering (AML) and counter-terrorist financing (CTF) regulations, ApexCrypto implements a mandatory multi-tier Know Your Customer (KYC) verification process. All registered users must complete at least Tier 1 verification to initiate any digital asset transactions on the platform.
+To ensure compliance with global anti-money laundering (AML) and counter-terrorist financing (CTF) regulations, XBO implements a mandatory multi-tier Know Your Customer (KYC) verification process. All registered users must complete at least Tier 1 verification to initiate any digital asset transactions on the platform.
 
 ### Verification Tiers and Requirements
 
@@ -22,5 +22,5 @@ To ensure compliance with global anti-money laundering (AML) and counter-terrori
 ### Important Notes and Guidelines
 * **Document Quality:** Uploaded documents must be fully visible, with all four corners included in the frame. Blurred, cropped, or highly reflective images will be automatically rejected by our compliance system.
 * **Name Matching:** The name on your submitted identification document must precisely match the legal name entered during registration. 
-* **Expired Documents:** ApexCrypto cannot accept expired identification documents. If your passport or ID expires post-verification, your account status may be temporarily downgraded to Tier 1 until an updated document is provided and approved.
-* **Corporate Accounts:** This policy covers individual accounts only. Entities looking to establish institutional profiles must contact our corporate compliance desk directly via institutional@apexcrypto.com.
+* **Expired Documents:** XBO cannot accept expired identification documents. If your passport or ID expires post-verification, your account status may be temporarily downgraded to Tier 1 until an updated document is provided and approved.
+* **Corporate Accounts:** This policy covers individual accounts only. Entities looking to establish institutional profiles must contact our corporate compliance desk directly via institutional@XBO.com.

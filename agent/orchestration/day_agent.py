@@ -20,10 +20,58 @@ AGENT_DIR = os.path.join(PROJECT_ROOT, "agent")
 RESULTS_DIR = os.path.join(AGENT_DIR, "results")
 PYTHON = sys.executable
 
+# Reconfigure stdout/stderr to use UTF-8 encoding on Windows to prevent UnicodeEncodeError with emojis
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
+
 FUNCTIONAL_SUITE = os.path.join(AGENT_DIR, "tests", "functional", "functional_suite.py")
 FUNCTIONAL_RESULTS = os.path.join(RESULTS_DIR, "functional_results.json")
 
 TIMEOUT_SECONDS = 300  # 5 minutes
+
+
+def generate_report(data, elapsed):
+    """Generate a structured Markdown pre-merge gate report for the Day Agent."""
+    now = time.strftime('%Y-%m-%d %H:%M:%S')
+    total = len(data.get("results", []))
+    passed = sum(1 for r in data.get("results", []) if r.get("passed"))
+    failed = total - passed
+    pass_rate = data.get("pass_rate", passed / total if total > 0 else 0.0)
+    status_str = "✅ PASSED" if pass_rate >= 1.0 else "❌ FAILED"
+
+    lines = []
+    lines.append("# 🌞 Day Agent — Pre-merge Gate Report")
+    lines.append("")
+    lines.append(f"**Generated:** {now}  ")
+    lines.append(f"**Status:** {status_str}  ")
+    lines.append(f"**Total runtime:** {elapsed:.1f}s  ")
+    lines.append("")
+    lines.append("## Summary")
+    lines.append("")
+    lines.append("| Metric | Value |")
+    lines.append("|--------|-------|")
+    lines.append(f"| **Total Tests** | {total} |")
+    lines.append(f"| **Passed** | {passed} ✅ |")
+    lines.append(f"| **Failed** | {failed} ❌ |")
+    lines.append(f"| **Pass Rate** | {pass_rate:.1%} |")
+    lines.append("")
+    lines.append("## Detailed Results")
+    lines.append("")
+    lines.append("| Status | Question | Similarity Score | Threshold |")
+    lines.append("|--------|----------|------------------|-----------|")
+
+    for r in data.get("results", []):
+        icon = "✅" if r.get("passed") else "❌"
+        sim = r.get("similarity", 0.0)
+        lines.append(f"| {icon} | {r.get('question')} | {sim:.4f} | 0.80 |")
+
+    lines.append("")
+    lines.append("---")
+    lines.append(f"*Report generated automatically by Day Agent at {now}*")
+
+    return "\n".join(lines)
 
 
 def main():
@@ -82,6 +130,14 @@ def main():
     passed = sum(1 for r in data.get("results", []) if r.get("passed"))
     failed = total - passed
 
+    # --- Generate report ---
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    report_md = generate_report(data, elapsed)
+    report_path = os.path.join(RESULTS_DIR, "day_report.md")
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write(report_md)
+    print(f"\n[INFO] Day Agent report saved to: {report_path}")
+
     print(f"\n{'=' * 60}")
     print(f"  RESULTS: {passed}/{total} passed | Pass rate: {pass_rate:.1%}")
     print(f"  Elapsed: {elapsed:.1f}s")
@@ -106,3 +162,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

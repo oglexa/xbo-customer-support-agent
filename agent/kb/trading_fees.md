@@ -1,6 +1,6 @@
-# ApexCrypto Help Center: Trading Fees and VIP Tier Structure
+# XBO Help Center: Trading Fees and VIP Tier Structure
 
-ApexCrypto utilizes a transparent Maker-Taker fee model across all spot and derivatives trading pairs. Fees are dynamically adjusted based on the user's cumulative 30-day trading volume (calculated in USD equivalent) and the amount of native Apex Utility Tokens (APX) held in their exchange wallets.
+XBO utilizes a transparent Maker-Taker fee model across all spot and derivatives trading pairs. Fees are dynamically adjusted based on the user's cumulative 30-day trading volume (calculated in USD equivalent) and the amount of native Apex Utility Tokens (APX) held in their exchange wallets.
 
 ### The Maker-Taker Model Explained
 
